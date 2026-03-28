@@ -37,6 +37,6 @@
 
 Copyright © 2026 パソコン教室のイカワ All rights reserved.
 
-## GitHub Pages URL
+## URL
 
-公開後: `https://YOUR_USERNAME.github.io/ikawa-pc-school/`
+https://school.ikaken.com/
