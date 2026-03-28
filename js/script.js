@@ -39,6 +39,13 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
+    // ESCキーでメニューを閉じる
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && nav.classList.contains('active')) {
+            closeMenu();
+        }
+    });
+    
     // スムーススクロール
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
